@@ -26,5 +26,5 @@ maybe('Challenge - 2 : my countEvenNumbers function can count even numbers in ar
         29,
         64
     ]
-    expect(countEvenNumbers(numbers)).tobe(9);
+    expect(countEvenNumbers(numbers)).toEqual(9);
 });
